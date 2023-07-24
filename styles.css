@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+/* fondo de pantalla */
+.cont-fondo{
+    background-color: #f5f8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;    
+}
+/* contenedor principal y titulo*/
+.cont-principal{
+    background-color: #ffffff;
+    padding: 0px 100px;        
+    /* background-color: #323357; */
+}
+
+.titulo{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    color: #323357;    
+    font-size: 30px;
+}
+
+.cont-estrellas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #f5f8ff;
+    border-radius: 100px;
+}
+
+.estrella{
+    width: 10%;
+    
+}
+
+.cont-estrellas p{
+    color: #7d7f90;    
+}
+.sub-titulo{
+    color: #7d7f90;
+    text-align: center;
+    margin: 5px 0 50px 0;
+    font-size: 16px;
+}
+
+.cont-estadisticas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    gap: 20px;
+}
+
+/* estilo general barras */
+
+.general{
+    background-color: #f5f8ff;
+    width: 250px;
+    height: 20px;   
+    border-radius: 100px;
+
+    
+}
+.start-5{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.span{
+    margin: 5px;
+    color: #809de8;
+}
+.barra-5{
+    background-color: #ffcc48;
+    width: 84%;
+    height: 100%;
+    border-radius: 100px;
+}
+
+.start-4{
+    display: flex;
+    justify-content: space-around;
+}
+.barra-4{
+    background-color: #ffcc48;
+    width: 25%;
+    height: 100%;
+    border-radius: 100px;
+}
+
+.start-3{
+    display: flex;
+    justify-content: space-around;
+}
+.barra-3{
+    background-color: #ffcc48;
+    width: 15%;
+    height: 100%;
+    border-radius: 100px;
+}
+.start-2{
+    display: flex;
+    justify-content: space-around;
+}
+.barra-2{
+    background-color: #ffcc48;
+    width: 10%;
+    height: 100%;
+    border-radius: 100px;
+}
+.start-1{
+    display: flex;
+    justify-content: space-around;
+}
+.barra-1{
+    background-color: #ffcc48;
+    width: 7%;
+    height: 100%;
+    border-radius: 100px;
+}
+
+.pie{
+    text-align: center;
+    margin: 50px 0 10px 0;
+    padding-bottom: 35px;
+    font-size: 16px;
+    color: #809de8;
+}
